@@ -3,7 +3,7 @@
 }
 
 body{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .header{
@@ -11,8 +11,354 @@ body{
     height: 600px;
     width: 1320px;
     margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    
+    
 }
 
 .header-div{
+    width: 632px;
+    height: 246px; 
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+   
+    
+}
+
+.header-div h1{
+    font-size: 90px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.header-div p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+   
+}
+
+/* header end */
+
+.section-1{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+    
+}
+.section-1 h1{
+    font-size: 60px;
+    color: red;
+    margin-bottom: 30px;
+   
+}
+.section-1 p{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.section-1 h4{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.section-1 img{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 10px;
+   
+}
+/* end section-1 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .header-div{
+        width: 90%;
+        height: auto;
+        top: 10%;
+    }
+    .header-div h1{
+        font-size: 40px;
+    }
+    .header-div p{
+        font-size: 16px;
+    }
+    .header-div p{
+        margin-top: 10px;
+    }
+    .header-div h1{
+        margin-top: 20px;
+    }
+    .header-div{
+        text-align: center;
+    }
+    .header-div h1, .header-div p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-1{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+    .section-1 h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .section-1 p{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .section-1 h4{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .section-1 img{
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        border-radius: 10px;
+    }
+    .section-1{
+        text-align: center;
+    }
+    .section-1 h1, .section-1 p, .section-1 h4{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-1 img{
+        margin-top: 20px;
+    }
+    .section-1 img{
+        margin-top: 20px;
+    }
+    .section-1 h1{
+        margin-top: 20px;
+    }
+    .section-1 p{
+        margin-top: 10px;
+    }
+    .section-1 h4{
+        margin-top: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .header{
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .header-div{
+        width: 90%;
+        height: auto;
+        top: 5%;
+    }
+    .header-div h1{
+        font-size: 30px;
+    }
+    .header-div p{
+        font-size: 14px;
+    }
+    .header-div{
+        text-align: center;
+    }
+    .header-div h1, .header-div p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-1{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+    .section-1 h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .section-1 p{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .section-1 h4{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .section-1 img{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+    .section-1{
+        text-align: center;
+    }
+    .section-1 h1, .section-1 p, .section-1 h4{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-1 img{
+        margin-top: 20px;
+    }
+    .section-1 img{
+        margin-top: 20px;
+    }
+    .section-1 h1{
+        margin-top: 20px;
+    }
+    .section-1 p{
+        margin-top: 10px;
+    }
+
+    .section-1 h4{
+        margin-top: 15px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 320px) {
+    .header{
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .header-div{
+        width: 90%;
+        height: auto;
+        top: 2%;
+        
+    }
+    .header-div h1{
+        font-size: 24px;
+    }
+    .header-div p{
+        font-size: 12px;
+    }
+    .header-div{
+        text-align: center;
+    }
+    .header-div h1, .header-div p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-1{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+    .section-1 h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .section-1 p{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .section-1 h4{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .section-1 img{
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border-radius: 10px;
+    }
+    .section-1{
+        text-align: center;
+    }
+
+    .section-1 h1, .section-1 p, .section-1 h4{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-1 img{
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 240px) {
+    .header{
+        height: 120px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .header-div{
+        width: 90%;
+        height: auto;
+        top: 1%;
+    }
+    .header-div h1{
+        font-size: 20px;
+    }
+    .header-div p{
+        font-size: 10px;
+    }
     
 }
