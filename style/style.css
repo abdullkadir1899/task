@@ -275,9 +275,7 @@ body{
     margin: 0 auto;
 }
 
-.section-6-div h1{
-   
-}
+
 
 .section-6-div{
     margin-top: 50px;
@@ -319,3 +317,66 @@ body{
 }
 
 
+.section-9{
+    width: 1320px;
+    height: 620px;
+    border-radius: 15px;
+    margin: 100px auto;
+    background-color: #ff000026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-9-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-9-div h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.section-9-div p{
+    font-size: 20px;
+    color: #080000;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.section-9-div input[type="email"]{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.section-9-div button{
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.section-9-div button:hover{
+    background-color: #e60000;
+}
+
+.section-9 input{
+    width: 400px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    font-size: 1.1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.068);
+}
+
+/* end section 9 */
+footer{
+    background: black;
+}
