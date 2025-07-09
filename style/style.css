@@ -270,15 +270,33 @@ body{
 
 .section-6-div{
     background-color: bisque;
-    height: 500px;
+    height: 663px;
     width: 1320px;
     margin: 0 auto;
 }
 
 .section-6-div h1{
+   
+}
+
+.section-6-div{
+    margin-top: 50px;
+    background: url(../resources/Rectangle\ 2.png), url(../resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+    
+}
+
+.section-7{
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.section-7 h1{
     font-size: 50px;
     color: black;
     margin-bottom: 20px;
+    margin-top: 10px;
     font-weight: 800;
-    text-align: center;
 }
