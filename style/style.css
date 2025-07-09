@@ -300,3 +300,22 @@ body{
     margin-top: 10px;
     font-weight: 800;
 }
+
+/* end section 7 */
+
+.section-8-div{
+    width: 1320px;
+    display: flex;
+    margin: 40px auto;
+    gap: 25px;
+
+}
+
+.section-8-div-4{
+    display: flex;
+    margin: 0 auto;
+    gap: 25px;
+    justify-content: center;
+}
+
+
